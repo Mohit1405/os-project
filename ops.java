@@ -21,7 +21,7 @@ class EnergyEfficientScheduler {
 
     public EnergyEfficientScheduler() {
         this.taskQueue = new PriorityQueue<>(Comparator.comparingInt(t -> -t.priority));
-        this.cpuFrequency = 2.5; // Default frequency in GHz
+        this.cpuFrequency = 2.5; // Default frequencjjy in GHz
     }
 
     public void addTask(Task task) {
