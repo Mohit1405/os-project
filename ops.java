@@ -17,7 +17,7 @@ class Task {
 class EnergyEfficientScheduler {
     private PriorityQueue<Task> taskQueue;
     private double cpuFrequency; // GHz
-    private double basePower = 50; // Base power in watttttt
+    private double basePower = 50; // Base power in watt
 
     public EnergyEfficientScheduler() {
         this.taskQueue = new PriorityQueue<>(Comparator.comparingInt(t -> -t.priority));
